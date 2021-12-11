@@ -2,9 +2,9 @@
 #include <cstring>
 #include <ctime>
 
-#define WORD_COUNT 8
-
 using namespace std;
+
+const int WORD_COUNT = 8;
 
 string words[] = {
   "the", "quick", "brown", "fox", "jumps", "over", "lazy", "dog"

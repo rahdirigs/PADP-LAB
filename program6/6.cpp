@@ -3,11 +3,11 @@
 #include <iostream>
 #include <omp.h>
 
-#define FILE_NAME "words.txt"
-#define WORD_SIZE 10
-#define WORD_COUNT 8
-
 using namespace std;
+
+const char *FILE_NAME = "words.txt";
+const int WORD_SIZE = 10;
+const int WORD_COUNT = 8;
 
 char words[][WORD_SIZE] = {
   "the", "quick", "brown", "fox", "jumps", "over", "lazy", "dog"
